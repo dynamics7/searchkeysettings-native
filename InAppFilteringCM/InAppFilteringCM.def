@@ -1,0 +1,15 @@
+LIBRARY     INAPPFILTERINGCM.DLL
+
+EXPORTS
+    ;?HardwareKeyboardDeployed@IAF@@YAHH@Z = _HardwareKeyboardDeployed @1 ;InAppFilteringCM.#1	@1   ; ?HardwareKeyboardDeployed@IAF@@YAHH@Z
+    ;?Initialize@IAF@@YAJXZ = _Initialize @2 ;InAppFilteringCM.#2					@2   ; ?Initialize@IAF@@YAJXZ
+    ;?ProcessTerminated@IAF@@YAXK@Z = _ProcessTerminated @3;InAppFilteringCM.#3			@3   ; ?ProcessTerminated@IAF@@YAXK@Z
+    ;?Register@PSL@IAF@@YAJK@Z = _Register @4 ;InAppFilteringCM.#4				@4   ; ?Register@PSL@IAF@@YAJK@Z
+	;?SearchInvoked___________ = SearchInvoked					@5
+    ;?SetFilterString@PSL@IAF@@YAXPBGK@Z = _SetFilterString @6 ;InAppFilteringCM.#6		@6   ; ?SetFilterString@PSL@IAF@@YAXPBGK@Z
+    ;?SetFocus@PSL@IAF@@YAXHK@Z = _SetFocus @7 ;InAppFilteringCM.#7				@7   ; ?SetFocus@PSL@IAF@@YAXHK@Z
+    ;?SetResultCount@PSL@IAF@@YAXIK@Z = _SetResultCount @8 ;InAppFilteringCM.#8		@8   ; ?SetResultCount@PSL@IAF@@YAXIK@Z
+    ;?Show@PSL@IAF@@YAXHK@Z = _Show @9 ;InAppFilteringCM.#9					@9   ; ?Show@PSL@IAF@@YAXHK@Z
+    ;?Uninitialize@IAF@@YAJXZ = _Uninitialize @10 ;InAppFilteringCM.#10				@10  ; ?Uninitialize@IAF@@YAJXZ
+    UIXGetSchemaFactory = UIXGetSchemaFactory @11 ;InAppFilteringCM.#11					@11  ; UIXGetSchemaFactory
+    UIXSchemaUnloaded = UIXSchemaUnloaded @12 ;InAppFilteringCM.#12						@12  ; UIXSchemaUnloaded
